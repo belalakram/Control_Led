@@ -1,16 +1,8 @@
-# untitled2
+# iot
 
 A new Flutter project.
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+To connect Embedded Linux (e.g., Jetson Nano) with a Flutter app for controlling an LED, you can create a backend service on the Linux device (like a REST API using Python Flask) that communicates with the GPIO pins, then have the Flutter app send HTTP requests to that service to control the LED.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
